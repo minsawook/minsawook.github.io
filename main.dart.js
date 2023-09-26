@@ -67621,7 +67621,7 @@ vj(){var s=0,r=A.a5(t.N),q,p,o
 var $async$vj=A.a6(function(a,b){if(a===1)return A.a2(b,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.a8(new A.VZ(A.aO(t.Gf)).u6("GET",A.mf("https://thingproxy.freeboard.io/fetch/https://api.velog.io/rss/@dnr111222",0,null),A.U(["Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET, DELETE, HEAD, OPTIONS","Accept","*/*"],p,p)),$async$vj)
+return A.a8(new A.VZ(A.aO(t.Gf)).u6("GET",A.mf("https://cors-anywhere.herokuapp.com/https://api.velog.io/rss/@dnr111222",0,null),A.U(["Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET, DELETE, HEAD, OPTIONS","Accept","*/*"],p,p)),$async$vj)
 case 3:o=b
 if(o.b===200){q=A.aF4(A.aCI(o.e).c.a.j(0,"charset")).dc(0,o.w)
 s=1
@@ -67630,7 +67630,7 @@ case 1:return A.a3(q,r)}})
 return A.a4($async$vj,r)},
 aQ(){this.vj().bH(new A.acG(this),t.P)
 this.bu()},
-M(a){var s=null,r=A.ev(s,10,s),q=A.d1("My Post 2",s,s,A.aw(a).p3.r,s),p=this.d
+M(a){var s=null,r=A.ev(s,10,s),q=A.d1("My Post",s,s,A.aw(a).p3.r,s),p=this.d
 return A.eq(A.a([r,q,B.eF,new A.yl(new A.og(1,1.7,p,s),new A.og(2,1.3,p,s),new A.og(3,1.1,p,s),new A.og(3,1.3,p,s),s)],t.p),B.ab,B.Q)}}
 A.acG.prototype={
 $1(a){var s=this.a
